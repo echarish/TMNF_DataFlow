@@ -1,0 +1,112 @@
+table.stats
+{text-align: center;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif ;
+  font-weight: normal;
+  font-size: 11px;
+  color: #fff;
+  width: 600px;
+  background-color: #666;
+  border: 0px;
+  border-collapse: collapse;
+  border-spacing: 0px;}
+
+table.stats td
+{background-color: #CCC;
+  color: #000;
+  padding: 4px;
+  text-align: left;
+  border: 1px #fff solid;}
+
+table.stats td.hed
+{background-color: #666;
+  color: #fff;
+  padding: 4px;
+  text-align: left;
+  border-bottom: 2px #fff solid;
+  font-size: 12px;
+  font-weight: bold;}
+
+
+.Green{
+    background-color:#4cae4c;
+}
+
+table.stats td.Green
+{background-color: #4cae4c;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+.Yellow{
+    background-color: #ffff00;
+}
+
+table.stats td.Yellow
+{background-color: #ffff00;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+
+.Blue{
+    background-color: #00b3ee;
+}
+
+table.stats td.Blue
+{background-color: #00b3ee;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+.SkBlue{
+    background-color: #a6e1ec;
+}
+
+table.stats td.SKblue
+{background-color: #a6e1ec;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+
+.LPink{
+    background-color: #F6C6CE;
+}
+
+
+table.stats td.LPink
+{background-color: #F6C6CE;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+
+.Orange{
+    background-color: #eea236;
+}
+
+table.stats td.Orange
+{background-color: #eea236;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+.Maroon{
+    background-color: #ce8483;
+}
+
+table.stats td.Maroon
+{background-color: #ce8483;
+    color: #000;
+    padding: 4px;
+    text-align: left;
+    border: 1px #fff solid;}
+
+
+
