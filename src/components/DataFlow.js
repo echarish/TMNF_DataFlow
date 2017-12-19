@@ -32,6 +32,7 @@ export class DataFlow extends Component {
                 </div>
 
                 <PolicyPeriodDiv dataType={ this.props.dataType }/>
+                <PolicyLineDiv dataType={ this.props.dataType }/>
 
                 <div className="col-sm-12">
                     <div className="col-sm-2 Yellow text-center">

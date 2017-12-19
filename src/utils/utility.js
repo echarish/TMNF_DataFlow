@@ -20,7 +20,17 @@ export function findProcessDataType(datatablename, dataType) {
         dataArray = Change2Bind[datatablename];
     }
 
+    dataArray.sort(compare);
+
     return dataArray;
 
+}
+
+function compare(a,b) {
+    if (a.PublicId < b.PublicId)
+        return -1;
+    if (a.PublicId > b.PublicId)
+        return 1;
+    return 0;
 }
 

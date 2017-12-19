@@ -49,30 +49,30 @@ export class DataFlowManContainerDiv extends Component {
                 <Grid>
                     <Row>
                         <Col>
-
+                                <br/>
                                 <ButtonToolbar>
                                     <Button bsStyle="primary" onClick={(event) => this.startProcess("BasePolicyData")}>
-                                        Create Commerical Policy
+                                        提出物
                                     </Button>
                                     <span>  </span>
                                     <Button bsStyle="info" disabled={this.state.change1start}
                                             onClick={(event) => this.startProcess("Change1Start")}>
-                                        Start Change 1
+                                        変更1開始
                                     </Button>
                                     <span>  </span>
                                     <Button bsStyle="info" disabled={this.state.change1bind}
                                             onClick={(event) => this.startProcess("Change1Bind")}>
-                                        Quote Change 1
+                                        変更1終る
                                     </Button>
                                     <span>  </span>
                                     <Button bsStyle="warning" disabled={this.state.change2start}
                                             onClick={(event) => this.startProcess("Change2Start")}>
-                                        Start OOSE
+                                        遡及異動開始
                                     </Button>
                                     <span>  </span>
                                     <Button bsStyle="warning" disabled={this.state.change2bind}
                                             onClick={(event) => this.startProcess("Change2Bind")}>
-                                        Quote OOSE
+                                        遡及異動終る
                                     </Button>
                                     <span>  </span>
                                     <Button bsStyle="danger" disabled={this.state.reset}
