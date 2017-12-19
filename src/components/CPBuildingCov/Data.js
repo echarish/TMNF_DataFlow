@@ -16,6 +16,7 @@ export class CPBuildingCovData extends Component {
                 <td>{index + 1}</td>
                 <td>{dataArrayData.PublicID}</td>
                 <td>{dataArrayData.FixedID}</td>
+                <td>{dataArrayData.DirectTerm1}</td>
                 <td className="Orange">{dataArrayData.ID}</td>
                 <td className="LPink">{dataArrayData.CPBuilding}</td>
                 <td>{dataArrayData.CreateTime}</td>

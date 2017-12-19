@@ -10,6 +10,7 @@ export class CPBuildingCovHeader extends Component {
                 <td className="hed">Count</td>
                 <td className="hed">PublicId</td>
                 <td className="hed">FixedID</td>
+                <td className="hed">Amount</td>
                 <td className="hed">ID</td>
                 <td className="hed">CPBuilding</td>
                 <td className="hed">CreateTime</td>
